@@ -1,0 +1,96 @@
+:root {
+  --wheat: #f3deb9;
+  --buff: #d1a575;
+  --carmine: #9f1919;
+  --night: #141414;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--night);
+  color: var(--wheat);
+  font-family: 'Montserrat', 'Raleway', sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.about-container {
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--night);
+  color: var(--wheat);
+  min-height: 100vh;
+  position: relative;
+}
+
+.skills-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  position: relative; /* This ensures that the skill cards are laid out in front of the blocks */
+  z-index: 2; /* Higher than the z-index of the background blocks */
+}
+
+.skill-card {
+  background-color: var(--night);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card h2 {
+  color: var(--wheat);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.skill-card p {
+  color: var(--wheat);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.background-block {
+  position: absolute;
+  width: calc(46.8vw);
+  height: 50%;
+  z-index: 1; /* Ensure they are behind the skill cards */
+}
+
+.top-left-block {
+  background-color: var(--buff);
+  top: 0;
+  left: 0;
+}
+
+.top-right-block {
+  background-color: var(--carmine);
+  top: 0;
+  right: 0;
+}
+
+.bottom-left-block {
+  background-color: var(--carmine);
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right-block {
+  background-color: var(--buff);
+  bottom: 0;
+  right: 0;
+}

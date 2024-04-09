@@ -1,0 +1,56 @@
+:root {
+  --night: #141414;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--night);
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.block {
+  background-color: var(--night);
+  width: 25%;
+  height: 100vh;
+  transform: translateY(100%);
+  border: white solid 1px 0px 0px 0px;
+  animation: slideIn 0.2s forwards;
+}
+
+.greeting {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 48%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+  animation-delay: 0.5s; /* Delay greeting appearance */
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

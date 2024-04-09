@@ -1,0 +1,26 @@
+/* about.css */
+.about-container, .projects-container, .resume-container {
+    /*margin-left: 100px; /* Adjusted for navbar width + leeway */
+    padding: 20px;
+    background-color: var(--night);
+    color: var(--wheat);
+    min-height: 100vh; /* Ensure it covers the full height */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Apply similar CSS rules for projects.css and resume.css by replacing .about-container with .projects-container and .resume-container respectively. */
+  
+  /* Shared CSS Variables in your global.css or App.css */
+  :root {
+    --night: #141414;
+    --wheat: #f3deb9;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Raleway', sans-serif;
+    background-color: var(--night);
+    color: var(--wheat);
+  }
+  
