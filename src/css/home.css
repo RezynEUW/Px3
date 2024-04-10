@@ -111,9 +111,15 @@ body {
 
 @media screen and (min-width: 2000px) {
   .home-text h1, .home-text h2 {
-    margin-top: 40vh;
+    margin-top: 35vh;
     font-family: 'Raleway', sans-serif;
     color: var(--wheat);
     font-size: 40px;
+  }
+
+  .home-image {
+    width: 600px;
+    height: 600px;
+    border-radius: 120px;
   }
 }
