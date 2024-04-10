@@ -163,7 +163,7 @@ body {
   .skill-card {
     padding: 5px;
     max-width: 300px;
-    margin: 10px;
+    margin: 0px;
   }
 
   .skill-card svg {
@@ -173,5 +173,21 @@ body {
     right: -10px; /* And slightly beyond the right edge */
     transform: scale(1.25); /* Optionally, scale the icon up */
     z-index: 1; /* Ensure it's above the card background but below text */
+  }
+
+  .skill-card h2 {
+    color: var(--wheat);
+    margin-bottom: 15px;
+    padding-right: 0px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .skill-card p {
+    color: var(--wheat);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 10px;
   }
 }
