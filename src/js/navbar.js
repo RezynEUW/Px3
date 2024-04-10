@@ -16,8 +16,9 @@ const Navbar = () => {
         <Link to="/projects" className="nav-link">Projects</Link>
       </div>
       <div className="navbar-bottom">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="nav-link">L</a>
-        <a href="/cv.pdf" download className="nav-link">CV</a>
+        <a href="https://www.linkedin.com/in/lukas-hedstr%C3%B6m-871975231/" target="_blank" rel="noopener noreferrer" className="nav-link">L</a>
+        <a href={`${process.env.PUBLIC_URL}/CV.pdf`} className="nav-link" target="_blank" rel="noopener noreferrer">CV</a>
+
       </div>
     </div>
   );

@@ -16,12 +16,12 @@ const About = () => {
     },
     {
       title: "Front End",
-      content: "My abilities are mainly focused upon general web development in classic HTML+CSS fashion, or more recently React and React Native for other platforms. Recent larger projects have been more focused on finishing products, so I'd very much be interested in pursuing this field even more whether it be professionally or for my own projects.",
+      content: "My abilities are mainly focused upon general web development in classic HTML+CSS fashion, or more recently React and React Native for other platforms. Recen and larger projects have been more focused on finishing products, so I'd very much be interested in pursuing this field even more whether it be professionally or for my own projects.",
       icon: faCode, // Represents Front End with a code icon
     },
     {
       title: "Back End",
-      content: "While my fundamentals are sharp in Design and UI/UX development, my degree also contains general tinkering with databases, server-based systems and API. While not my most confident category, I am always up to learn something new and expand into full stack development!",
+      content: "While my fundamentals are sharp in Design and UI/UX development, my degree also contains general tinkering with databases, server-based systems and API. While not my most confident category, I am completely up to the idea to hone this field and expand into full stack development!",
       icon: faDatabase, // Represents Back End with a database icon
     }
   ];

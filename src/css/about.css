@@ -109,3 +109,50 @@ body {
   bottom: 0;
   right: 0;
 }
+
+/* Adjust the border-radius for each corner block specifically */
+.top-left-block {
+  background-color: var(--buff);
+  top: 0;
+  left: 0;
+  border-radius: 50px 0 0 0; /* Rounds the top-left corner */
+}
+
+.top-right-block {
+  background-color: var(--carmine);
+  top: 0;
+  right: 0;
+  border-radius: 0 50px 0 0; /* Rounds the top-right corner */
+}
+
+.bottom-left-block {
+  background-color: var(--carmine);
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 0 50px; /* Rounds the bottom-left corner */
+}
+
+.bottom-right-block {
+  background-color: var(--buff);
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 50px 0; /* Rounds the bottom-right corner */
+}
+
+
+@media (max-width: 600px) {
+  .skill-card {
+    padding: 5px;
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  .skill-card svg {
+    color: var(--wheat); /* Set icon color */
+    position: absolute; /* Position the icon absolutely within the card */
+    top: -10px; /* Position it slightly above the top edge */
+    right: -10px; /* And slightly beyond the right edge */
+    transform: scale(1.25); /* Optionally, scale the icon up */
+    z-index: 1; /* Ensure it's above the card background but below text */
+  }
+}
