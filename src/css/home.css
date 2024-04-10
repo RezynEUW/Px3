@@ -23,7 +23,7 @@ body {
   height: 95vh; /* Adjusted to match the viewport height */
   overflow: hidden; /* Prevent content from extending outside the viewport */
   opacity: 0;
-  animation: fadeIn 0.1s ease forwards; /* Animation for content fade-in */
+  animation: fadeIn 0.2s ease forwards; /* Animation for content fade-in */
 }
 
 .home-image {

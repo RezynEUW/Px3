@@ -8,7 +8,7 @@ const Landing = () => {
   useEffect(() => {
     setTimeout(() => {
       navigate('/home');
-    }, 5000); // Adjust time as needed
+    }, 3500); // Adjust time as needed
   }, [navigate]);
 
   return (
