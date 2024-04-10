@@ -33,7 +33,7 @@ body {
   background-image: url('../../public/og.jpg'); /* Original image */
   background-size: cover;
   background-position: center;
-  margin-bottom: 86px;
+  margin-bottom: 10vh;
   border: 18px solid var(--wheat); /* Original border */
   z-index: 2; /* Ensure image and text are above the rectangles */
   transition: border 0.5s ease, background-image 0.5s ease; /* Smooth transition for border and image change */
@@ -49,7 +49,7 @@ body {
 }
 
 .home-text h1, .home-text h2 {
-  margin-top: 18px;
+  margin-top: 10vh;
   font-family: 'Raleway', sans-serif;
   color: var(--wheat);
 }
