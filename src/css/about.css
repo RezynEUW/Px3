@@ -1,3 +1,5 @@
+
+
 :root {
   --wheat: #f3deb9;
   --buff: #d1a575;
@@ -66,7 +68,7 @@ body {
 
 .background-block {
   position: absolute;
-  width: calc(46.8vw);
+  width: calc(50vw);
   height: 50%;
   z-index: 1; /* Ensure they are behind the skill cards */
 }

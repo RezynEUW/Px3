@@ -1,5 +1,8 @@
 import React from 'react';
 import '../css/about.css'; // Ensure the CSS path is correct
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const About = () => {
   // Information to be displayed in each card
