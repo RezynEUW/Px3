@@ -26,7 +26,13 @@ import { faDatabase, faV } from '@fortawesome/free-solid-svg-icons';
 
 const projectData = [
   {
-    title: "Prior Portfolio",
+    title: "Trimma: Mobile friendly prototyping",
+    description: "Our task was to enhance the responsiveness of the Insikt Analysis tool developed by twoday INSIKT, formerly Trimma, a leading provider of decision support across various industries. The specific focus was on improving usability on smaller screens such as tablets and smartphones, while ensuring satisfactory functionality even with limited screen real estate. My responsibility primarily Share/Export, but also the file browser. Most of the design was dynamic either way.",
+    media: [trimma1, trimma2], // Placeholder for any project visuals
+    technologies: [faFigma], // Placeholder icons
+  },
+  {
+    title: "Previous Portfolio",
     description: "My previous portfolio website, a responsive site built using React, showcased a functioning dark mode, polished animations, and intuitive navigation, highlighting a user-friendly and visually appealing online presence. This project was later replaced with the current iteration you're seeing now, continuing my journey in refining and enhancing my digital portfolio.",
     media: [oldport, oldport2],
     technologies: [faReact, faGithub],
@@ -61,12 +67,7 @@ const projectData = [
     media: [discbee1, discbee2], // Placeholder for any project visuals
     technologies: [faFigma, faReact, faDatabase, faGithub], // Placeholder icons
   },
-  {
-    title: "Trimma: Mobile friendly prototyping",
-    description: "Our task was to enhance the responsiveness of the Insikt Analysis tool developed by twoday INSIKT, formerly Trimma, a leading provider of decision support across various industries. The specific focus was on improving usability on smaller screens such as tablets and smartphones, while ensuring satisfactory functionality even with limited screen real estate. My responsibility primarily Share/Export, but also the file browser. Most of the design was dynamic either way.",
-    media: [trimma1, trimma2], // Placeholder for any project visuals
-    technologies: [faFigma], // Placeholder icons
-  },
+
   
 ];
 
