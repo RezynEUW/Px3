@@ -164,6 +164,7 @@ body {
     padding: 5px;
     max-width: 300px;
     margin: 0px;
+    margin-bottom: 40px;
   }
 
   .skill-card svg {
