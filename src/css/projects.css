@@ -122,3 +122,12 @@
     max-width: 95%; /* Carousel now expands to match the card width */
   }
 }
+
+@media (min-width: 1400px) {
+  .project-image, .project-card .carousel .slide img, .project-card .carousel .slide video {
+    max-width: 100%;
+    height: 1000px; /* Fixed height for the carousel's media window */
+    object-fit: contain;
+    margin: auto; /* Centers the media in the carousel container */
+  }
+}
