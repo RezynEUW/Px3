@@ -180,7 +180,6 @@ body {
     margin-bottom: 15px;
     padding-right: 0px;
     text-align: center;
-    font-size: 12px;
   }
   
   .skill-card p {
@@ -188,6 +187,6 @@ body {
     padding: 15px;
     border-radius: 10px;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
