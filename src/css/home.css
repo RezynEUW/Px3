@@ -29,11 +29,11 @@ body {
 .home-image {
   width: 300px;
   height: 300px;
-  border-radius: 60px;
+  border-radius: 600px;
   background-image: url('../../public/og.jpg'); /* Original image */
   background-size: cover;
   background-position: center;
-  margin-top: 5%;
+  margin-top: 0%;
   margin-bottom: 10vh;
   border: 18px solid var(--wheat); /* Original border */
   z-index: 2; /* Ensure image and text are above the rectangles */
@@ -125,6 +125,11 @@ body {
     border-radius: 1000px;
     margin-top: 5%;
   }
+
+  .home-text {
+    text-align: center;
+    z-index: 2; /* Ensure image and text are above the rectangles */
+  }
 }
 
   @media (max-width: 700px) {
@@ -139,7 +144,7 @@ body {
       width: 250px;
       height: 250px;
       border-radius: 500px;
-      margin-top: 5%;
+      margin-top: 10%;
     }
 
     .home-text {

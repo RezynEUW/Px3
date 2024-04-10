@@ -7,7 +7,7 @@
 }
 
 .project-wrapper {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center; /* This will center the .project-card vertically and horizontally */
