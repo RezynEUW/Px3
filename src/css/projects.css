@@ -116,6 +116,7 @@
   .project-card {
     width: 95%; /* Cards will now take up full width */
     border-radius: 0; /* Optional: Adjusts border-radius for a more "full-screen" look */
+    padding: 10px;
   }
 
   .carousel-container, .carousel-item {
