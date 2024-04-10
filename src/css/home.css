@@ -20,10 +20,10 @@ body {
   align-items: center;
   position: relative;
   padding-top: 5vh;
-  height: 95vh; /* Adjusted to match the viewport height */
+  height: 90vh; /* Adjusted to match the viewport height */
   overflow: hidden; /* Prevent content from extending outside the viewport */
   opacity: 0;
-  /* animation: fadeIn 0.2s ease forwards;  Animation for content fade-in */
+  animation: fadeIn 0.2s ease forwards;
 }
 
 .home-image {
@@ -120,8 +120,8 @@ body {
   }
 
   .home-image {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 1000px;
     margin-top: 5%;
   }
@@ -141,8 +141,8 @@ body {
     }
   
     .home-image {
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       border-radius: 500px;
       margin-top: 10%;
     }
