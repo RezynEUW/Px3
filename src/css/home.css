@@ -108,3 +108,12 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .home-text h1, .home-text h2 {
+    margin-top: 40vh;
+    font-family: 'Raleway', sans-serif;
+    color: var(--wheat);
+    font-size: 40px;
+  }
+}
