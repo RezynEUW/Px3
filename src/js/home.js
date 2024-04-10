@@ -16,6 +16,7 @@ const Home = () => {
         <h1>Lukas Hedström</h1>
         <br></br><br></br>
         <p>I am a student in the Master of Science Programme in Interaction Technology and Design at Umeå University.</p>
+        <p>View what I'm about by using the menu to the left!</p>
       </div>
     </div>
   );
